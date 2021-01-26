@@ -38,16 +38,6 @@ export default function Home() {
 
       <Head>
         <title>Alura Quiz - Pokémon</title>
-        {/* <!-- Primary Meta Tags --> */}
-        <meta name="title" content="Alura Quiz - Pokémon" />
-        <meta name="description" content="Quiz realizado durante a Imersão React Next.js organizada pela Alura." />
-
-        {/* <!-- Open Graph / Facebook --> */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://aluraquiz-base.viniciusgiordano.vercel.app/" />
-        <meta property="og:title" content="Alura Quiz - Pokémon" />
-        <meta property="og:description" content="Quiz realizado durante a Imersão React Next.js organizada pela Alura." />
-        <meta property="og:image" content="../Public/pokeball.png" />
       </Head>
 
       <QuizContainer>
