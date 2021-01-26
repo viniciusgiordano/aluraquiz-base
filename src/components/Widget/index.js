@@ -46,6 +46,27 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  input {
+    width: 100%;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid ${({ theme }) => theme.colors.primary};
+    height: 2rem;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    color: ${({ theme }) => theme.colors.contrastText}
+    
+  }
+  a {
+    display: block;
+    background: ${({ theme }) => theme.colors.primary};
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 0;
+  }
 `;
 
 export default Widget;
