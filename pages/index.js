@@ -62,7 +62,7 @@ export default function Home() {
 
       </QuizContainer>
 
-      <GitHubCorner projectUrl='https://github.com/viniciusgiordano' />
+      <GitHubCorner projectUrl='https://github.com/viniciusgiordano/aluraquiz-base' />
     </QuizBackground>
   );
 }
